@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Phoenix">
+      <UniqueIdentifier>{40FF9C0C-ACDE-1BA8-B5F6-A67E21558209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Phoenix\Core">
+      <UniqueIdentifier>{98AB57BA-840E-E75E-2D94-1F1519D6B2E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Phoenix\Events">
+      <UniqueIdentifier>{240313B4-10D1-06BA-F964-77E0E5D1E21E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{2AC788B4-1694-E3BF-3FAD-D1672BD9184E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Phoenix.h" />
+    <ClInclude Include="src\Phoenix\Application.h">
+      <Filter>Phoenix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Phoenix\Core\KeyCode.h">
+      <Filter>Phoenix\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Phoenix\Core\MouseCode.h">
+      <Filter>Phoenix\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Phoenix\Events\ApplicationEvent.h">
+      <Filter>Phoenix\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Phoenix\Events\Event.h">
+      <Filter>Phoenix\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Phoenix\Events\KeyEvent.h">
+      <Filter>Phoenix\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Phoenix\Events\MouseEvent.h">
+      <Filter>Phoenix\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Phoenix\Log.h">
+      <Filter>Phoenix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Phoenix\Window.h">
+      <Filter>Phoenix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Phoenix\core.h">
+      <Filter>Phoenix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Phoenix\entrypoint.h">
+      <Filter>Phoenix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\WindowsWindow.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pnpch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Phoenix\Application.cpp">
+      <Filter>Phoenix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Phoenix\Log.cpp">
+      <Filter>Phoenix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\WindowsWindow.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pnpch.cpp" />
+  </ItemGroup>
+</Project>
